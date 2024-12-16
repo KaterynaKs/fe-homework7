@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>   
+    <form class="input">
+        <h2>1. Создать форму (инпут + кнопка). В инпут вводится ссылка на изображение. При сабмите формы в консоль выводится введенное в инпут значение. При сабмите формы  в div.imgs_container добавляется картинка, доступная по введенной ссылке. 
+        Размеры картинки 150х150px (без деформации - object-fit: contain)</h2>
+        <label>
+            <p>Вставьте ссылку:</p>
+            <input type="text" placeholder="место для ссылки..." name="text" required>
+        </label>
+        <button type="submit">Загрузить картинку</button>
+    </form>
+    <br>
+    <div class="imgs_container"></div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-element {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+button{
+    background-color: rgb(31, 120, 183);
+    height: 30px;
+}
+
+input{
+  width: 400px;
+  height: 30px;
+}
+
+h2{
+    padding: 50px;
+}
+
+form{    
+    font-size: 20px;
+}

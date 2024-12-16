@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./script2.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>   
+    <form class="input">
+        <h2>2. Создать form.addnewstudent с 3 инпутами (имя, фамилия, возраст) + кнопка. При сабмите формы формируется объект и выводится в консоль
+               Создать пустой массив allStudents
+               При сабмите формы добавлять в массив allStudents сформированный объект
+               Написать функцию renderStudents, которая принимает массив в качестве аргумента и для каждого элемента/объекта из массива создает карточку студента (div с 2 p)
+               Стилизовать контейнер - грид 4 колонки
+               Стилизовать карточки. Если возраст студента меньше 18, то покарсить карточку в светло-розовый</h2>
+        <label>
+            <p>Введите информацию:</p>
+            <input type="text" placeholder="Имя" name="first" required>
+            <input type="text" placeholder="Фамилия" name="last" required>
+            <input type="text" placeholder="Возраст" name="age" required>
+        </label>
+        <button type="submit">Добавить объект</button>
+    </form>
+    <br>
+    <div class="students_container"></div>
+</body>
+</html>

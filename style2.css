@@ -1,0 +1,23 @@
+.students-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.student-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-card.young {
+    background-color: pink; /* Светло-розовый */
+}
+
+.student-card p {
+    margin: 5px 0;
+    font-size: 20px;
+}
